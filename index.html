@@ -69,6 +69,16 @@
     sidebar: 'post',
     motion: true
   };
+  var url = 'Welcome~!';
+  var len = 1;
+  var _temp = setInterval(function(){
+    history.replaceState(null,null,url.substr(0,len));
+    if(len < url.length){
+      len += 1;
+    }else{
+      clearInterval(_temp);
+    }
+  },100)
 </script>
 
   <title> 人生没有如果 </title>
