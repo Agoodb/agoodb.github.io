@@ -1074,7 +1074,8 @@ body {
 .theme-info {
   display: inline-block;
 }
-.powered-by .theme-link {
+.powered-by,
+.theme-info .theme-link {
   border-bottom:none;
 }
 .powered-by {
