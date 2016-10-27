@@ -1073,6 +1073,7 @@ body {
 .powered-by,
 .theme-info {
   display: inline-block;
+  font-size: 12px;
 }
 .powered-by .theme-link,
 .theme-info .theme-link {
